@@ -3,7 +3,7 @@ Use your yubikey with a forwarding agent for your ssh key
 
 ## Steps
 
-* `Run yubikey_ssh_piv.sh`, it will prompt you for a 6 digit pin (remember this)
+* `Run yubikey_ssh_piv.sh`, it will prompt you for a passphrase (limit is 8 characters, remember this)
 
 * In order to setup the forwarding agent, run:
   
@@ -11,7 +11,7 @@ Use your yubikey with a forwarding agent for your ssh key
   ssh-add -e /usr/lib/ssh-keychain.dylib; ssh-add -s /usr/lib/ssh-keychain.dylib
   ```
   
-  You will be prompted for your pin
+  You will be prompted for your passphrase
 
 * Copy `agent.sh` into your home directory and add the following to the bottom of your `.bash_profile`
 
