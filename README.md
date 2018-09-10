@@ -5,6 +5,8 @@ Use your yubikey with a forwarding agent for your ssh key
 
 * `Run yubikey_ssh_piv.sh`, it will prompt you for a passphrase (limit is 8 characters, remember this)
 
+* Unplug and replug the yubikey
+
 * In order to setup the forwarding agent, run:
   
   ```
