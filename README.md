@@ -1,7 +1,9 @@
 # ssh-yubikey
-Use your yubikey with a forwarding agent for your ssh key
+Use your YubiKey with a forwarding agent for your ssh key
 
 ## Steps
+
+* Install the Yubico PIV Tool
 
 * `Run yubikey_ssh_piv.sh`, it will prompt you for a passphrase (limit is 8 characters, remember this)
 
